@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Covid Informational</title>
+</head>
+
+<body>
+    <!-- <header> -->
+    <div class="navbar">
+        <ul type="none">
+            <li><a href="/">HOME</a></li>
+            <li><a href="/updates">UPDATES</a></li>
+            <li><a href="/symptoms">SYMPTOMS</a></li>
+            <li><a href="/hospital">HOSPITALS</a></li>
+            <li><a href="/precautions">PRECAUTIONS</a></li>
+            <li><a href="https://www.pmcares.gov.in/en/" target="_blank">DONATE</a></li>
+        </ul>
+    </div>
+    <!-- </header> -->
+    <section class="main">
+        <div class="motto">
+            <p class="motto1">TOGETHER WE CAN , TOGETHER WE WILL , DEFEAT THIS VIRUS</p>
+            <!-- <p class="motto1big">DEFEAT THIS VIRUS</p> -->
+        </div>
+        <div class="illustration">
+            <img src="./images/doctors.png" width="1500px" height="1000px">
+
+        </div>
+        <!-- <p class="motto2">All information you need related to COVID-19 is available on a single platform.<br></p> -->
+    </section>
+    <section>
+        <div class="main2">
+
+            <div class="state">
+                <button class="button"><a href="/updates">View State Wise</a></button>
+            </div>
+            <div class="cases">
+                <div class="tracker">
+                    <p class="total"><%= total %></p>
+                    <p class="text">Total Cases</p>
+                </div>
+                <div class="tracker">
+                    <p class="active"><%= active %></p>
+                    <p class="text">Active Cases</p>
+                </div>
+                <div class="tracker">
+                    <p class="recovered"><%= recovered %> </p>
+                    <p class="text">Recovered Cases</p>
+                </div>
+                <div class="tracker">
+                    <p class="deaths"><%= deaths %></p>
+                    <p class="text">Deaths</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="news">
+            <a href="/newsletter" class="newsl">Subscribe to our Newsletter</a>
+        </div>
+    </section>
+
+</body>
+
+</html>

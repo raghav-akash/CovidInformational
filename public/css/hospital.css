@@ -1,0 +1,215 @@
+.navbar{
+    box-sizing: border-box;
+    background-color:rgb(192, 134, 243);
+    border-radius: 35px;
+    display: flex;
+    max-width: 90%;
+    margin:auto;
+    margin-top:20px;
+}
+.navbar ul{
+    overflow: auto;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.navbar li{
+    float: left;
+    padding: 5px 5px;
+    margin: 5px 15px;
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 15pt;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: rgb(4, 0, 255);
+}
+.news{
+    /* background-color: blue; */
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.newsl{
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    font-size: 20pt;
+    padding: 15px;
+    border-radius: 14px;
+    color: black;
+    border: solid 4px rgb(151, 53, 236);
+    margin-bottom: 30px;
+
+}
+.newsl:hover{
+    color: white;
+    background-color: rgb(151, 53, 236);
+}
+*{
+    font-family:Helvetica,Arial, sans-serif;    
+}
+
+
+
+/* now starts main page css */
+
+.container{
+    /* background-color: blue; */
+    width: 90%;
+    margin:auto;
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 100px; */
+}
+.display-5{
+    /* background-color: chartreuse; */
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 35pt;
+    text-align: center;
+    /* background-color: rgb(180, 100, 255); */
+    color:rgb(253, 153, 2);
+    border-radius: 15px;
+    padding: 10px;
+}
+.line{
+    /* background-color: darkgray; */
+    text-align: center;
+    font-size: 22pt;
+}
+
+.form{
+    background-color: #c7c8fe6b;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 90%;
+    margin: auto;
+    margin-top: -95px;
+    display: flex;
+    flex-direction: column;
+
+}
+.table{
+    /* background-color: yellow; */
+    margin-top: 15px;
+}
+.state{
+    /* background-color: turquoise; */
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    /* flex-direction: column; */
+    
+}
+.meraform{
+    /* background-color: peru; */
+    margin: 10px;
+    margin-left: 500px;
+    font-size: 14pt;
+    padding: 5px;
+    
+    /* padding-left: 100px; */
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    font-size: 15pt;
+    background-color: rgb(180, 100, 255);
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: -460px;
+    border: solid 2px rgb(180, 100, 255);
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(180, 100, 255);
+    /* border: solid 3px rgb(180, 100, 255); */
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+ 
+  
+  th {
+    background-color: rgb(180, 100, 255);
+    color: white;
+  }
+.img{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(253, 153, 2); */
+}
+.city{
+    color: blue;
+}
+.states{
+    color: blue;
+}
+.hospital{
+    /* color: rgb(255, 251, 0); */
+}
+.admission{
+    color: green;
+}
+.bed{
+    color: green;
+}
+.head {
+    width: 90%;
+    /* height: 500px; */
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    /* background: #696969; */
+    overflow: hidden;
+    border-radius: 40px;
+}
+.head h1 {
+    padding: 10px;
+    font-size: 70pt;
+    font-weight: bolder;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 100px;
+    /* color: rgb(252, 15, 66); */
+    color: rgb(14, 90, 253);
+    /* color: #000; */
+} 
+.head img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* width: 1360px; */
+    /* height: 700px; */
+    z-index: 1;
+    margin-left: 250px;
+    opacity: 0.6;
+}
+.heading{
+    text-align: center;
+    width: 90%;
+    height: 500px;
+    /* background-color: saddlebrown; */
+    /* background-image: url(3652872.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bakchod{
+    display: flex;
+    justify-content: center;
+}

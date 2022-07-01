@@ -1,0 +1,199 @@
+body{
+    background-color: rgb(243, 240, 245);
+}
+.navbar{
+    box-sizing: border-box;
+    background-color:rgb(192, 134, 243);
+    border-radius: 35px;
+    display: flex;
+    max-width: 90%;
+    margin:auto;
+    margin-top:20px;
+}
+.navbar ul{
+    overflow: auto;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.navbar li{
+    float: left;
+    padding: 5px 5px;
+    margin: 5px 15px;
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 15pt;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: rgb(4, 0, 255);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: hotpink; */
+
+}
+.motto{
+    /* background-color: yellow; */
+    width: 85%;
+}
+.motto1{
+    /* background-color: tomato; */
+    font-family: Helvetica, sans-serif;
+    color:rgb(253, 153, 2);
+    font-size: 30pt;
+    margin-top: 43px;
+    margin-bottom:5px;
+    display: flex;
+    justify-content: center;
+}
+.motto1big{
+    /* background-color: rgb(27, 23, 235); */
+    font-family: Helvetica, sans-serif;
+    color:rgb(243, 157, 29);
+    font-size: 60pt;
+    margin-top:0px;
+    margin-bottom:0px;
+    display: flex;
+    justify-content: center;
+}
+
+.illustration{
+    /* background-color: green; */
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    margin-top:0px;
+}
+.motto2{
+    background-color: violet;
+    font-family: Helvetica, sans-serif;
+    font-size: 15pt;
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+}
+.main2{
+    display: flex;
+    max-width: 90%;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius: 40px;
+}
+.cases{
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.tracker{
+    box-sizing: border-box;
+    /* background-color: white; */
+    border: 5px solid rgb(151, 53, 236);
+    border-radius: 30px;
+    width: 270px;
+    height: 110px;
+    padding: 7px;
+    padding-bottom: 108px;
+    
+}
+.tracker:hover{
+    background-color: rgb(178, 103, 243);
+    border: 5px solid rgb(178, 103, 243);
+    color: white;
+}
+.total, .active, .recovered, .deaths{
+    font-family: Helvetica, sans-serif;
+    font-size: 45pt;
+    text-align: center;
+    /* background-color: crimson; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.active{
+    color: red;
+}
+.active:hover{
+    color:white;
+}
+.recovered{
+    color: green;
+}
+.recovered:hover{
+    color: white;
+}
+.deaths{
+    color: grey;
+}
+.deaths:hover{
+    color: white;
+}
+.text{
+    /* background-color: brown; */
+    font-family: Helvetica, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.state{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chartreuse; */
+    width: 10%;
+    border-right:5px solid rgb(243, 157, 29);
+}
+.button{
+    background:rgb(151, 53, 236);
+    display: flex;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+    border: 5px solid rgb(151, 53, 236);
+    border-radius: 55px;
+    width: 100px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button:hover{
+    background-color: white;
+    border: 5px solid rgb(151, 53, 236);
+    
+}
+a:hover{
+    color: rgb(151, 53, 236);
+}
+
+.news{
+    /* background-color: blue; */
+    text-align: center;
+    margin-bottom: 60px;
+}
+.newsl{
+    font-family: Helvetica, sans-serif;
+    background-color: white;
+    font-size: 20pt;
+    padding: 15px;
+    border-radius: 14px;
+    color: black;
+    border: solid 4px rgb(151, 53, 236);
+    margin-bottom: 30px;
+
+}
+.newsl:hover{
+    color: white;
+    background-color: rgb(151, 53, 236);
+}
